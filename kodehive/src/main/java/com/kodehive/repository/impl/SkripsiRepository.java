@@ -81,7 +81,7 @@ public class SkripsiRepository implements ISkripsiRepository{
 	@Override
 	public List<SkripsiModel> searchByExcJudulSortDsc(String keyword) {
 		// TODO Auto-generated method stub
-		var query = "select * from t_skripsi where judul NOT LIKE '%" + keyword+"%' order by desc";
+		var query = "select * from t_skripsi where judul NOT LIKE '" +keyword+"%' order by tahun desc";
 
 		return jdbc.query(query, new BeanPropertyRowMapper<SkripsiModel>(SkripsiModel.class));
 	}

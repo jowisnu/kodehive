@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 
 import com.kodehive.model.SkripsiModel;
 import com.kodehive.repository.ISkripsiRepository;
-import com.kodehive.repository.impl.SkripsiRepository;
 import com.kodehive.service.ISkripsiService;
 import com.kodehive.model.EmailModel;
 

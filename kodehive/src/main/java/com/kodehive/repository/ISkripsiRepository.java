@@ -21,5 +21,5 @@ public interface ISkripsiRepository {
 
 	public List<SkripsiModel> searchByExcTahun(String keyword);
 	
-	public List<SkripsiModel> searchByExcJudulSortDsc(String keyword );
+	public List<SkripsiModel> searchByExcJudulSortDsc(String keyword);
 }
