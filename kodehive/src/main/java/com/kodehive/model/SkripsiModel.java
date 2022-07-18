@@ -1,5 +1,7 @@
 package com.kodehive.model;
 
+import java.sql.Date;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -19,5 +21,8 @@ public class SkripsiModel {
 	private String judul;
 	private int nilai;
 	private int tahun;
+	private String email;
+	private Date createdDate;
+	private String createdBy;
 	
 }
