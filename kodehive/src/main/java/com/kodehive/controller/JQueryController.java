@@ -9,4 +9,9 @@ public class JQueryController {
 	public String QuizJQuery1No5() {
 		return "/QuizJQuery1No5";
 	}
+	
+	@RequestMapping("/QuizJQuery1No6")
+	public String QuizJQuery1No6() {
+		return "/QuizJQuery1No6";
+	}
 }

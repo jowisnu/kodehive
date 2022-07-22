@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="../js/jquery-3.6.0.min.js"></script>
+<style>
+	.box {
+		color: white;
+		background: dodgerblue;
+		background-color: blue;
+		padding: 20px;
+		text-align: center;
+		font-family: sans-serif;
+		border: 5px solid dodgerblue;
+  		border-radius: 10px;
+	}
+	.center {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.envelope1{
+		border: 1px solid;
+		width: 0;
+		height: 0;
+		display:none;
+		border-left: 50px solid red;
+		border-right: 50px solid red;
+		border-bottom: 50px solid orange;
+		margin-left: auto;
+		margin-right: auto;
+		box-shadow: 1px 1px;
+	}
+	.envelope2{
+		border: 1px solid;
+		width: 0;
+		height: 0;
+		display:none;
+		border-left: 50px solid green;
+		border-right: 50px solid green;
+		border-top: 50px solid rgb(0, 255, 128);
+		margin-left: auto;
+		margin-right: auto;
+		box-shadow: 1px 1px;
+	}
+	.envelope3 {
+		border: 1px solid;
+		width: 0;
+		height: 0;
+		display:none;
+		border-left: 50px solid blue;
+		border-right: 50px solid blue;
+		border-top: 50px solid rgb(0, 255, 128);
+		margin-left: auto;
+		margin-right: auto;
+		box-shadow: 1px 1px;
+	}	
+	</style> 
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").fadeToggle();
+    $("#div2").fadeToggle(750);
+    $("#div3").fadeToggle(1500);
+  });
+});
+</script>
+</head>
+<body>
+
+<div >
+<table class="center">
+	<tr>
+		<td><button class="box">Animasi Surat</button>
+	</td>
+	</tr>
+	
+</table>
+</div>
+<br><div id="div1" class="envelope1" ></div>
+<br><div id="div2" class="envelope2" ></div>
+<br><div id="div3" class="envelope3" ></div>
+
+</body>
+</html>

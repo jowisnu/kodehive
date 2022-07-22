@@ -44,7 +44,9 @@ const person = {
 };
 
 console.log(person.pet.name)
-
+console.log()
+console.log()
+console.log()
 
 function foo1()
 {
